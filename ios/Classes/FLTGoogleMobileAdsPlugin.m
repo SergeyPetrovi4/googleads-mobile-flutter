@@ -223,7 +223,7 @@
 #pragma clang diagnostic pop
   }
 
-    return [topViewControllerWithRootViewController: root];
+    return [self topViewControllerWithRootViewController: root];
 }
 
 - (UIViewController*)topViewControllerWithRootViewController:(UIViewController*)rootViewController {
